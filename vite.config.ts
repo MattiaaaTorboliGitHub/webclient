@@ -52,7 +52,7 @@ export default defineConfig({
           {
             name: "Playlists",
             description: "View your playlists",
-            url: "/musica/#/playlists"
+            url: "/musica/#/playlists",
             icons: [
               {
                 src: "/icons/playlist.svg",
