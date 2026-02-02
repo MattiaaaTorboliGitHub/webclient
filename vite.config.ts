@@ -10,7 +10,7 @@ import { nodePolyfills } from 'vite-plugin-node-polyfills'
 const path = require("path");
 
 export default defineConfig({
-  base: "./",
+  base: "/musica/",
   plugins: [
     vue(),
     svgLoader(),
@@ -52,7 +52,7 @@ export default defineConfig({
           {
             name: "Playlists",
             description: "View your playlists",
-            url: "/#/playlists",
+            url: "/musica/#/playlists"
             icons: [
               {
                 src: "/icons/playlist.svg",
@@ -83,7 +83,7 @@ export default defineConfig({
             ],
           },
         ],
-        start_url: "/",
+        start_url: "/musica/",
         display: "standalone",
         background_color: "rgba(0, 0, 0, 0.95)",
       },
